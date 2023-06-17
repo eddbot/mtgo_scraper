@@ -9,11 +9,11 @@ public class PrintResults {
 
             System.out.println("\n__Main__\n");
             for (var card : player.getMainDeck().cardList()) {
-                System.out.println(card.getName() + " | " + card.getQuantity() + " | " + card.getType());
+                System.out.println(card.getName() + " | " + card.getQuantity());
             }
             System.out.println("\n__Sideboard__\n");
             for (var card : player.getSideboard().cardList()) {
-                System.out.println(card.getName() + " | " + card.getQuantity() + " | " + card.getType());
+                System.out.println(card.getName() + " | " + card.getQuantity());
             }
             System.out.println("---------");
         }

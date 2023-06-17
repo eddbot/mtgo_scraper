@@ -1,6 +1,5 @@
 package org.murismo;
 
-import org.murismo.models.Results;
 import org.murismo.services.GetResults;
 import org.murismo.services.PrintResults;
 import org.murismo.services.SaveResults;
